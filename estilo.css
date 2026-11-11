@@ -1,0 +1,318 @@
+body {
+            background: radial-gradient(circle, rgb(79, 9, 117), black);
+            margin: 0;
+            min-height: 100vh;
+        }
+        nav {
+            text-align: center;
+            padding: 20px;
+            background-color: rgb(30, 5, 46);
+            border-bottom: 2px solid rgb(255, 255, 255);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-family: Arial;
+            font-size: 18px;
+            display: inline-block;
+            transition: all 0.3s;
+        }
+        nav a:hover {
+            transform: scale(1.2);
+            color: #a78bfa;
+        }
+        #inicio {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 60px 40px;
+            color: white;
+            gap: 49px;
+        }
+        #inicio .info {
+            flex: 1;
+            text-align: left;
+        }
+        #inicio h1 {
+            font-size: 45px;
+            margin-bottom: 20px;
+        }
+        #inicio p {
+            line-height: 1.7;
+            color: white;
+            font-size: 18px;
+        }
+        p.cursiv {
+            font-family: cursive;
+        }
+        #inicio .imagen {
+            flex: 1;
+        }
+        #inicio .imagen img {
+            width: 55%;
+            border-radius: 15px;
+            box-shadow: 0 0 30px rgba(167, 139, 250, 0.6);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+        #inicio .imagen img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 50px rgba(167, 139, 250, 0.9);
+            cursor: pointer;
+        }
+        h2 {
+            color: white;
+            text-align: center;
+            font-size: 37px;
+        }
+        img {
+            width: 40%;
+            border-radius: 15px;
+            box-shadow: 0 0 30px rgba(167, 139, 250, 0.6);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+        img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 50px rgba(167, 139, 250, 0.9);
+            cursor: pointer;
+        }
+        .misterios a{
+            width: 40%;
+            flex-shrink: 0;
+            display: block;
+        }
+        .misterios a img {
+            width: 100%;
+        }
+        p {
+            align-items: center;
+            font-size: 15px;
+            color: white;
+            line-height: 1.7;
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 0 40px;
+            box-sizing: border-box;
+            text-align: justify;
+        }
+        .misterios {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            padding: 0 40px;
+            margin-top: 20px;
+        }
+        .misterio img{
+            width: 45%;
+            flex-shrink: 0;
+        }
+        .misterios .texto {
+            flex: 1;
+        }
+        .misterios .fila{
+            display: flex;
+            gap: 40px;
+            margin-bottom: 10px;
+        }
+        .misterios p {
+            color: white;
+            margin: 0;
+            padding: 0;
+            max-width: none;
+            text-align: left;
+        }
+        .Audio{
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        .Audio .media {
+            width: 40%;
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            justify-content: center;
+            align-items: center;
+        }
+        .Videos{
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        .Videos .media{
+            width: 40%;
+            flex-shrink: 0;
+        }
+        .Videos .media video{
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(167, 139, 250, 0.5);
+        }
+        .Videos .texto{
+            width: 60%;
+        }
+        .teorias a{
+            width: 40%;
+            flex-shrink: 0;
+            display: block;
+        }
+        .teorias a img {
+            width: 100%;
+        }
+        p {
+            align-items: center;
+            font-size: 15px;
+            color: white;
+            line-height: 1.7;
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 0 40px;
+            box-sizing: border-box;
+            text-align: justify;
+        }
+        .teorias {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            padding: 0 40px;
+            margin-top: 20px;
+        }
+        .teorias img{
+            width: 45%;
+            flex-shrink: 0;
+        }
+        .teorias .texto {
+            flex: 1;
+        }
+        .teorias .fila{
+            display: flex;
+            gap: 40px;
+            margin-bottom: 10px;
+        }
+        .teorias p {
+            color: white;
+            margin: 0;
+            padding: 0;
+            max-width: none;
+            text-align: left;
+        }
+        .virgo a{
+            width: 40%;
+            flex-shrink: 0;
+            display: block;
+        }
+        .virgo a img {
+            width: 100%;
+        }
+        p {
+            align-items: center;
+            font-size: 15px;
+            color: white;
+            line-height: 1.7;
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 0 40px;
+            box-sizing: border-box;
+            text-align: justify;
+        }
+        .virgo {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            padding: 0 40px;
+            margin-top: 20px;
+        }
+        .virgo img{
+            width: 45%;
+            flex-shrink: 0;
+        }
+        .virgo .texto {
+            flex: 1;
+        }
+        .virgo .fila{
+            display: flex;
+            gap: 40px;
+            margin-bottom: 10px;
+        }
+        .virgo p {
+            color: white;
+            margin: 0;
+            padding: 0;
+            max-width: none;
+            text-align: left;
+        }
+        .zombie a{
+            width: 40%;
+            flex-shrink: 0;
+            display: block;
+        }
+        .zombie a img {
+            width: 100%;
+        }
+        p {
+            align-items: center;
+            font-size: 15px;
+            color: white;
+            line-height: 1.7;
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 0 40px;
+            box-sizing: border-box;
+            text-align: justify;
+        }
+        .zombie {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            padding: 0 40px;
+            margin-top: 20px;
+        }
+        .zombie img{
+            width: 45%;
+            flex-shrink: 0;
+        }
+        .zombie .texto {
+            flex: 1;
+        }
+        .zombie .fila{
+            display: flex;
+            gap: 40px;
+            margin-bottom: 10px;
+        }
+        .zombie p {
+            color: white;
+            margin: 0;
+            padding: 0;
+            max-width: none;
+            text-align: left;
+        }
+        form{
+            background-color: #1a1a2e;
+            padding: 20px;
+            border-radius: 15px;
+            max-width: 500px;
+            margin: auto;
+            text-align: left;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 8px;
+            border-radius: 8px;
+            border: 1px solid #a78bfa;
+            background: #0f0f1e;
+            color: white;
+        }
+        button{
+            background-color: #a78bfa;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        ul{
+            list-style: none;
+            text-align: center;
+            padding: 0;
+        }
